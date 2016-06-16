@@ -1,0 +1,337 @@
+body
+{
+	background-image:url("design.png");
+	border-image-repeat: none;
+	background-position: fixed;
+}
+.all
+{	
+	position:absolute;
+	left:0;
+	top: 0;
+	height: 100%;
+	width:100%;
+}
+.nav-bar
+{
+	position:fixed;
+	left:0%;
+	top:0%;
+	background-color: rgb(100,150,255);
+	height:100%;
+	width:15%;
+	padding:0;
+	margin: 0;
+	overflow: auto;
+}
+.nav-bar ul
+{
+	list-style-type:none;
+	color:rgb(255,255,255);
+	padding:0;
+	margin: 0;
+	overflow: auto;
+	position: relative;
+	top:40px;
+}
+li .nav
+{
+	display: block;
+	padding: 10px;
+	cursor: pointer;
+}
+li #logo
+{
+	position:relative;
+	left:2%;
+	top:5%;
+}
+.nav-bar a:hover
+{
+	background-color: rgb(10,50,255);
+	color: rgb(100,150,255);
+}
+.nav-but 
+{
+	position: fixed;
+	top: 5%;
+	left: 3%;
+	height: 40px;
+	width: 40px;
+	cursor: pointer;
+}
+.nav-but img
+{
+	width: 100%;
+	height: auto;
+}
+.big-rotate
+{
+	position:absolute;
+	top:-20%;
+	left:30%;
+	height:40%;
+	width:40%;	
+	cursor: pointer;
+	
+}
+.big-rotate img
+{
+	width:100%;
+	height:auto;
+	-webkit-animation-name: rotate; 
+    -webkit-animation-duration: 6s; 
+    -webkit-animation-iteration-count: infinite; 
+    -webkit-animation-timing-function:linear;
+    animation-name: rotate;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function:linear;
+    cursor: pointer;
+}
+.small-rotate-1
+{
+	position:absolute;
+	top:20%;
+	left:10%;
+	height:15%;
+	width:15%;	
+	cursor: pointer;
+}
+.small-rotate-1 img
+{
+	width:100%;
+	height:auto;
+	width:100%;
+	height:auto;
+	-webkit-animation-name: rotate; 
+    -webkit-animation-duration: 4s; 
+    -webkit-animation-iteration-count: infinite; 
+    -webkit-animation-timing-function:linear;
+    animation-name: rotate;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function:linear;
+}
+.small-rotate-2
+{
+	position:absolute;
+	top:40%;
+	left:30%;
+	height:15%;
+	width:15%;	
+}
+.small-rotate-2 img
+{
+	width:100%;
+	height:auto;
+	-webkit-animation-name: rotate; 
+    -webkit-animation-duration: 4s; 
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function:linear; 
+    animation-name: rotate;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function:linear;
+    cursor: pointer;
+}
+.small-rotate-3
+{
+	position:absolute;
+	top:40%;
+	left:55%;
+	height:15%;
+	width:15%;	
+	cursor: pointer;
+}
+.small-rotate-3 img
+{
+	width:100%;
+	height:auto;
+	-webkit-animation-name: rotate; 
+    -webkit-animation-duration: 4s; 
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function:linear; 
+    animation-name: rotate;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function:linear;
+}
+.small-rotate-4
+{
+	position:absolute;
+	top:20%;
+	left:75%;
+	height:15%;
+	width:15%;	
+	cursor: pointer;
+}
+.small-rotate-4 img
+{
+	width:100%;
+	height:auto;
+	-webkit-animation-name: rotate; 
+    -webkit-animation-duration: 4s; 
+    -webkit-animation-iteration-count: infinite; 
+    -webkit-animation-timing-function:linear;
+    animation-name: rotate;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function:linear;
+}
+@-webkit-keyframes rotate
+{
+	0% {transform:rotate(0deg);}
+	50%{transform: rotate(180deg);}
+	100%{transform:rotate(360deg);}
+}
+.circle-1-1
+{
+	position: absolute;
+	top: -8.2%;
+	left:38.3%;
+	height:300px;
+	width:300px;
+	border-radius: 100%;
+	background-color: white;
+	cursor: pointer;
+}
+.circle-1-2
+{
+	position: absolute;
+	top: -7.2%;
+	left:39%;
+	height:280px;
+	width:280px;
+	border-radius: 100%;
+	background-color:rgb(255,0,0);
+	cursor: pointer;
+}
+.circle-2-1
+{
+	position: absolute;
+	top: 23.4%;
+	left:12.6%;
+	height:130px;
+	width:130px;
+	border-radius: 100%;
+	background-color: white;
+	cursor: pointer;
+}
+.circle-2-2
+{
+	position: absolute;
+	top: 23.9%;
+	left:13%;
+	height:120px;
+	width:120px;
+	border-radius: 100%;
+	background-color:rgb(255,0,0);
+	cursor: pointer;
+}
+.circle-3-1
+{
+	position: absolute;
+	top: 43.4%;
+	left:32.6%;
+	height:130px;
+	width:130px;
+	border-radius: 100%;
+	background-color: white;
+	cursor: pointer;
+}
+.circle-3-2
+{
+	position: absolute;
+	top: 43.9%;
+	left:33%;
+	height:120px;
+	width:120px;
+	border-radius: 100%;
+	background-color:rgb(255,0,0);
+	cursor: pointer;
+}
+.circle-4-1
+{
+	position: absolute;
+	top: 43.4%;
+	left:57.6%;
+	height:130px;
+	width:130px;
+	border-radius: 100%;
+	background-color: white;
+	cursor: pointer;
+}
+.circle-4-2
+{
+	position: absolute;
+	top: 43.9%;
+	left:58%;
+	height:120px;
+	width:120px;
+	border-radius: 100%;
+	background-color:rgb(255,0,0);
+	cursor: pointer;
+}
+.circle-5-1
+{
+	position: absolute;
+	top: 23.4%;
+	left:77.6%;
+	height:130px;
+	width:130px;
+	border-radius: 100%;
+	background-color: white;
+	cursor: pointer;
+}
+.circle-5-2
+{
+	position: absolute;
+	top: 23.9%;
+	left:78%;
+	height:120px;
+	width:120px;
+	border-radius: 100%;
+	background-color:rgb(255,0,0);
+	cursor: pointer;
+}
+.h11
+{
+	position: absolute;
+	left: 42%;
+	top:2%;
+	font-size: 150%;
+	cursor: pointer;
+}
+.h12
+{
+	position: absolute;
+	left: 15.2%;
+	top:27.3%;
+	font-size: 70%;
+	cursor: pointer;
+}
+.h13
+{
+	position: absolute;
+	left:35.2%;
+	top:47.3%;
+	font-size: 70%;
+	cursor: pointer;
+}	
+.h14
+{
+	position: absolute;
+	left: 60.2%;
+	top:47.3%;
+	font-size: 70%;
+	cursor: pointer;
+}
+.h15
+{
+	position: absolute;
+	left: 80.2%;
+	top:27.3%;
+	font-size: 70%;
+	cursor: pointer;
+}
